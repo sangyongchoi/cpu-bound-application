@@ -17,6 +17,7 @@ public class HashController {
             input = getMD5Digest(input);
         }
         return input;
+
     }
 
     @RequestMapping("/hello")
